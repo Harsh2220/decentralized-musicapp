@@ -4,7 +4,21 @@
     "web": {
       "bundler": "metro"
     },
+    "experiments": {
+      "typedRoutes": true
+    },
     "name": "decentralized-musicapp",
-    "slug": "decentralized-musicapp"
+    "slug": "decentralized-musicapp",
+    "extra": {
+      "eas": {
+        "projectId": "cbfc1791-ab58-4a32-acef-80f71cfb2e59"
+      }
+    },
+    "android": {
+      "package": "com.harsh0909.decentralizedmusicapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.harsh0909.decentralizedmusicapp"
+    }
   }
 }
